@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1369339158.svg)](https://doi.org/10.5281/zenodo.22742492)
+
 cff-version: 1.2.0
 message: "If you use this reproducibility dataset, please cite the Zenodo record for the deposited version."
 title: "Reproducibility data and code for orbital chaos and tidal-history recoverability in Milky Way globular clusters"
