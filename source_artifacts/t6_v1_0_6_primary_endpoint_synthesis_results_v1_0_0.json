@@ -1,0 +1,143 @@
+{
+  "cluster_endpoints": [
+    {
+      "chaos_class": "ROBUST_MATERIAL_CHAOS",
+      "cluster": "NGC 6522",
+      "combined_label": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+      "functional_class": "FULL_FUNCTIONAL_STABILITY",
+      "potential": "Irrgang13III",
+      "primary_conjunction_satisfied": true
+    },
+    {
+      "chaos_class": "ROBUST_MATERIAL_CHAOS",
+      "cluster": "NGC 6544",
+      "combined_label": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+      "functional_class": "FULL_FUNCTIONAL_STABILITY",
+      "potential": "Irrgang13III",
+      "primary_conjunction_satisfied": true
+    },
+    {
+      "chaos_class": "ROBUST_MATERIAL_CHAOS",
+      "cluster": "NGC 6402",
+      "combined_label": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+      "functional_class": "FULL_FUNCTIONAL_STABILITY",
+      "potential": "Irrgang13III",
+      "primary_conjunction_satisfied": true
+    },
+    {
+      "chaos_class": "ROBUST_MATERIAL_CHAOS",
+      "cluster": "NGC 6304",
+      "combined_label": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+      "functional_class": "FULL_FUNCTIONAL_STABILITY",
+      "potential": "Irrgang13III",
+      "primary_conjunction_satisfied": true
+    },
+    {
+      "chaos_class": "ROBUST_MATERIAL_CHAOS",
+      "cluster": "NGC 6441",
+      "combined_label": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+      "functional_class": "FULL_FUNCTIONAL_STABILITY",
+      "potential": "Irrgang13III",
+      "primary_conjunction_satisfied": true
+    },
+    {
+      "chaos_class": "ROBUST_MATERIAL_CHAOS",
+      "cluster": "NGC 6569",
+      "combined_label": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+      "functional_class": "FULL_FUNCTIONAL_STABILITY",
+      "potential": "Irrgang13III",
+      "primary_conjunction_satisfied": true
+    },
+    {
+      "chaos_class": "ROBUST_MATERIAL_CHAOS",
+      "cluster": "IC 4499",
+      "combined_label": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+      "functional_class": "FULL_FUNCTIONAL_STABILITY",
+      "potential": "Irrgang13III",
+      "primary_conjunction_satisfied": true
+    },
+    {
+      "chaos_class": "ROBUST_MATERIAL_CHAOS",
+      "cluster": "NGC 3201",
+      "combined_label": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+      "functional_class": "FULL_FUNCTIONAL_STABILITY",
+      "potential": "Irrgang13III",
+      "primary_conjunction_satisfied": true
+    },
+    {
+      "chaos_class": "ROBUST_MATERIAL_CHAOS",
+      "cluster": "PAL 13",
+      "combined_label": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+      "functional_class": "FULL_FUNCTIONAL_STABILITY",
+      "potential": "Irrgang13III",
+      "primary_conjunction_satisfied": true
+    },
+    {
+      "chaos_class": "ROBUST_MATERIAL_CHAOS",
+      "cluster": "ESO 456 SC29",
+      "combined_label": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+      "functional_class": "FULL_FUNCTIONAL_STABILITY",
+      "potential": "Irrgang13III",
+      "primary_conjunction_satisfied": true
+    },
+    {
+      "chaos_class": "ROBUST_MATERIAL_CHAOS",
+      "cluster": "NGC 6624",
+      "combined_label": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+      "functional_class": "FULL_FUNCTIONAL_STABILITY",
+      "potential": "Irrgang13III",
+      "primary_conjunction_satisfied": true
+    },
+    {
+      "chaos_class": "ROBUST_MATERIAL_CHAOS",
+      "cluster": "NGC 6652",
+      "combined_label": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+      "functional_class": "FULL_FUNCTIONAL_STABILITY",
+      "potential": "Irrgang13III",
+      "primary_conjunction_satisfied": true
+    }
+  ],
+  "endpoint_policy": {
+    "path": "02_METADATA/CLEANROOM_T6_CONFIRMATORY_ENDPOINT_POLICY_v1_0_0.json",
+    "sha256": "da3b62ed92392bf75cb62729ecede226c44466adaaa2a7732c58cd0d5572b4b8"
+  },
+  "primary_endpoint_truth": true,
+  "primary_policy": {
+    "chaos_requirement": "ROBUST_MATERIAL_CHAOS",
+    "functional_requirement": "FULL_FUNCTIONAL_STABILITY",
+    "potential": "Irrgang13III",
+    "quantifier": "AT_LEAST_ONE_CLUSTER",
+    "statement": "At least one confirmatory cluster in Irrgang13III independently reaches FULL_FUNCTIONAL_STABILITY + ROBUST_MATERIAL_CHAOS under the frozen policy."
+  },
+  "primary_qualifying_cluster_count": 12,
+  "primary_qualifying_clusters": [
+    "NGC 6522",
+    "NGC 6544",
+    "NGC 6402",
+    "NGC 6304",
+    "NGC 6441",
+    "NGC 6569",
+    "IC 4499",
+    "NGC 3201",
+    "PAL 13",
+    "ESO 456 SC29",
+    "NGC 6624",
+    "NGC 6652"
+  ],
+  "scope": {
+    "McMillan17_endpoint_synthesis_computed": false,
+    "broader_occurrence_secondary_count_computed": false,
+    "prevalence_claim_authorized": false,
+    "primary_endpoint_only": true
+  },
+  "source_classification_results": {
+    "path": "09_VALIDATION/t6_v1_0_6_96row_chaos_classification_results_v1_0_0.json",
+    "sha256": "75b9b7bb663a927699f8038122638b194ed9db047c10746f3b0d1223a544006a"
+  },
+  "source_preflight_contract": {
+    "path": "02_METADATA/CLEANROOM_T6_V1_0_6_PRIMARY_ENDPOINT_SYNTHESIS_PREFLIGHT_CORRECTED_CONTRACT_v1_0_1.json",
+    "sha256": "d2b688b43ba458539860d7d0ee070aab703a503692e09b3d3d27c7594b59964c"
+  },
+  "stage": "CLEANROOM_T6_V1_0_6_PRIMARY_ENDPOINT_SYNTHESIS_RESULTS",
+  "version": "v1.0.0"
+}

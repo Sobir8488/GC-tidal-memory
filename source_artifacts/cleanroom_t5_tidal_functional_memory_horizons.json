@@ -1,0 +1,150 @@
+{
+  "policy": {
+    "file": "02_METADATA/CLEANROOM_T5_CHAOS_AWARE_TIDAL_FUNCTIONAL_ADJUDICATION_POLICY_v1_0_0.json",
+    "sha256": "1f98697832c2a58fb38040e1a0d983a35c8df576a667f02fd5befab941515f22"
+  },
+  "potentials": {
+    "Irrgang13III": {
+      "H_F_Gyr": 6.0,
+      "H_M_tau_Gyr_diagnostic_only": {
+        "0.1Gyr": 6.0,
+        "0.5Gyr": 6.0,
+        "1Gyr": 6.0,
+        "2Gyr": 6.0
+      },
+      "H_distribution_Gyr": 6.0,
+      "H_primary_Gyr": 6.0,
+      "M_tau_window_PASS_diagnostic_only": {
+        "0.1Gyr": {
+          "0.25Gyr": true,
+          "0.5Gyr": true,
+          "1Gyr": true,
+          "2Gyr": true,
+          "4Gyr": true,
+          "6Gyr": true
+        },
+        "0.5Gyr": {
+          "0.25Gyr": true,
+          "0.5Gyr": true,
+          "1Gyr": true,
+          "2Gyr": true,
+          "4Gyr": true,
+          "6Gyr": true
+        },
+        "1Gyr": {
+          "0.25Gyr": true,
+          "0.5Gyr": true,
+          "1Gyr": true,
+          "2Gyr": true,
+          "4Gyr": true,
+          "6Gyr": true
+        },
+        "2Gyr": {
+          "0.25Gyr": true,
+          "0.5Gyr": true,
+          "1Gyr": true,
+          "2Gyr": true,
+          "4Gyr": true,
+          "6Gyr": true
+        }
+      },
+      "TV_tide_window_PASS_diagnostic_only": {
+        "0.25Gyr": true,
+        "0.5Gyr": true,
+        "1Gyr": true,
+        "2Gyr": true,
+        "4Gyr": true,
+        "6Gyr": true
+      },
+      "distribution_window_PASS": {
+        "0.25Gyr": true,
+        "0.5Gyr": true,
+        "1Gyr": true,
+        "2Gyr": true,
+        "4Gyr": true,
+        "6Gyr": true
+      },
+      "full_horizon_functional_PASS": true,
+      "primary_window_PASS": {
+        "0.25Gyr": true,
+        "0.5Gyr": true,
+        "1Gyr": true,
+        "2Gyr": true,
+        "4Gyr": true,
+        "6Gyr": true
+      }
+    },
+    "McMillan17": {
+      "H_F_Gyr": 0.0,
+      "H_M_tau_Gyr_diagnostic_only": {
+        "0.1Gyr": 6.0,
+        "0.5Gyr": 0.0,
+        "1Gyr": 0.5,
+        "2Gyr": 0.5
+      },
+      "H_distribution_Gyr": 0.0,
+      "H_primary_Gyr": 0.5,
+      "M_tau_window_PASS_diagnostic_only": {
+        "0.1Gyr": {
+          "0.25Gyr": true,
+          "0.5Gyr": true,
+          "1Gyr": true,
+          "2Gyr": true,
+          "4Gyr": true,
+          "6Gyr": true
+        },
+        "0.5Gyr": {
+          "0.25Gyr": false,
+          "0.5Gyr": true,
+          "1Gyr": true,
+          "2Gyr": true,
+          "4Gyr": true,
+          "6Gyr": true
+        },
+        "1Gyr": {
+          "0.25Gyr": true,
+          "0.5Gyr": true,
+          "1Gyr": false,
+          "2Gyr": true,
+          "4Gyr": false,
+          "6Gyr": false
+        },
+        "2Gyr": {
+          "0.25Gyr": true,
+          "0.5Gyr": true,
+          "1Gyr": false,
+          "2Gyr": true,
+          "4Gyr": false,
+          "6Gyr": false
+        }
+      },
+      "TV_tide_window_PASS_diagnostic_only": {
+        "0.25Gyr": true,
+        "0.5Gyr": true,
+        "1Gyr": false,
+        "2Gyr": true,
+        "4Gyr": false,
+        "6Gyr": false
+      },
+      "distribution_window_PASS": {
+        "0.25Gyr": false,
+        "0.5Gyr": true,
+        "1Gyr": false,
+        "2Gyr": false,
+        "4Gyr": false,
+        "6Gyr": false
+      },
+      "full_horizon_functional_PASS": false,
+      "primary_window_PASS": {
+        "0.25Gyr": true,
+        "0.5Gyr": true,
+        "1Gyr": false,
+        "2Gyr": false,
+        "4Gyr": false,
+        "6Gyr": false
+      }
+    }
+  },
+  "stage": "CLEANROOM_T5_TIDAL_FUNCTIONAL_CONVERGENCE_POLICY_APPLICATION",
+  "version": "v1.0.0"
+}

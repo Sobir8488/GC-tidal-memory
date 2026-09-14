@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility dataset, please cite the Zenodo record for the deposited version."
+title: "Reproducibility data and code for orbital chaos and tidal-history recoverability in Milky Way globular clusters"
+type: dataset
+version: 1.0.0
+date-released: 2026-09-11
+authors:
+  - family-names: Turaev
+    given-names: Sobir
+    affiliation: "Ulugh Beg Astronomical Institute, Uzbekistan Academy of Sciences, Tashkent, Uzbekistan"
+  - family-names: Yuldoshev
+    given-names: Qudratillo
+    affiliation: "Ulugh Beg Astronomical Institute, Uzbekistan Academy of Sciences, Tashkent, Uzbekistan"
+keywords:
+  - globular clusters
+  - Galactic dynamics
+  - tidal tensor
+  - Lyapunov exponent
+  - numerical convergence
+  - reproducibility
+license: CC-BY-4.0

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "version": "1.0.0",
+  "zenodo_upload_type": "dataset",
+  "manuscript_files_included": false,
+  "historical_non_authoritative_t6_raw_namespace_included": false,
+  "csv_row_counts": {
+    "confirmatory_sample.csv": 12,
+    "discovery_functional_horizon.csv": 36,
+    "functional_state_by_cluster_potential.csv": 24,
+    "lyapunov_configurations.csv": 96,
+    "lyapunov_group_summary.csv": 24,
+    "mcmillan17_discovery_failure_modes.csv": 36,
+    "observational_uncertainty_confirmatory_sample.csv": 12,
+    "parent_phase_space_registry.csv": 165,
+    "primary_endpoint_rows.csv": 12
+  },
+  "figure_pdf_count": 9,
+  "figure_png_count": 2,
+  "source_artifact_count": 8,
+  "code_file_count": 3
+}

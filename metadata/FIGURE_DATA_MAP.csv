@@ -1,0 +1,10 @@
+figure_file,data_source,role
+phase_space_xy.pdf,data/parent_phase_space_registry.csv;data/confirmatory_sample.csv,Galactocentric X-Y context
+phase_space_rz.pdf,data/parent_phase_space_registry.csv;data/confirmatory_sample.csv,Galactocentric R-Z context
+lyapunov_strength_by_cluster.pdf,data/lyapunov_group_summary.csv,Finite-time Lyapunov strength and four-configuration range
+lyapunov_time_vs_functional_state.pdf,data/lyapunov_group_summary.csv;data/functional_state_by_cluster_potential.csv,Joint chaos-functional state diagram
+discovery_functional_horizon.pdf,data/discovery_functional_horizon.csv,Discovery-stage functional convergence by look-back window
+observational_input_uncertainty.pdf,data/observational_uncertainty_confirmatory_sample.csv,Input-level uncertainty summary
+lyapunov_configuration_spread.pdf,data/lyapunov_group_summary.csv,Four-configuration Lyapunov spread
+mcmillan17_discovery_failure_modes.pdf,data/mcmillan17_discovery_failure_modes.csv,Discovery-stage McMillan17 failure-mode diagnostic
+phase_space_context.pdf,data/parent_phase_space_registry.csv;data/confirmatory_sample.csv,Combined two-panel Galactocentric phase-space context

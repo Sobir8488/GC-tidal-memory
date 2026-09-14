@@ -1,0 +1,218 @@
+{
+  "frozen_policy": {
+    "file": "02_METADATA/CLEANROOM_T5_CHAOS_AWARE_TIDAL_FUNCTIONAL_ADJUDICATION_POLICY_v1_0_0.json",
+    "sha256": "1f98697832c2a58fb38040e1a0d983a35c8df576a667f02fd5befab941515f22"
+  },
+  "functional_result": {
+    "file": "09_VALIDATION/cleanroom_t5_tidal_functional_convergence_policy_application_result.json",
+    "sha256": "6011fea3d3f31951d15b45a79c56f7436c981356e39359238ab63167bd17694a"
+  },
+  "global": {
+    "Irrgang13III_high_novelty_label": true,
+    "T3_reopened": false,
+    "T4_reopened": false,
+    "VJ_calls": 0,
+    "both_potentials_robust_material_chaos": true,
+    "chaos_annotation_applied": true,
+    "functional_classes_modified": false,
+    "lyapunov_calls": 0,
+    "orbit_integrations": 0,
+    "physical_inference_authorized": false,
+    "segmentation": 0,
+    "ttensor_calls": 0
+  },
+  "potential_results": {
+    "Irrgang13III": {
+      "H_F_Gyr": 6.0,
+      "H_distribution_Gyr": 6.0,
+      "H_primary_Gyr": 6.0,
+      "N_L_6Gyr": {
+        "max": 8.73751398206321,
+        "min": 8.025559117205919,
+        "values": [
+          8.737501321468276,
+          8.73751398206321,
+          8.025559117205919,
+          8.025567233012348
+        ]
+      },
+      "chaos_annotation": "ROBUST_MATERIAL_CHAOS",
+      "chaos_can_rescue_functional_failure": false,
+      "chaos_threshold": "ROBUST_MATERIAL_CHAOS iff min N_L_6Gyr >= 1",
+      "configuration_rows": [
+        {
+          "N_L_6Gyr": 8.737501321468276,
+          "chaos_index": 0,
+          "direction_id": "A",
+          "functional_layer_class_before_chaos": "FULL_FUNCTIONAL_STABILITY",
+          "lambda_6Gyr_Gyr_minus1": 1.4562502202447127,
+          "lyapunov_metadata_json": "09_VALIDATION/CLEANROOM_T5_CHAOS_DIAGNOSTIC_METADATA_v1_0_0/00_Irrgang13III_dop853_c_A_C1_lyapunov.json",
+          "lyapunov_metadata_sha256": "69332e4e61b0c2286a299ac44c0ba49693bbb20de94c4903f94caa6ab54a99ec",
+          "method": "dop853_c",
+          "potential": "Irrgang13III",
+          "raw_lyapunov_npz": "04_ORBITS/CLEANROOM_T5_CHAOS_DIAGNOSTIC_RAW_v1_0_0/00_Irrgang13III_dop853_c_A_C1_lyapunov.npz",
+          "raw_lyapunov_sha256": "820c74f80827fedbccc90d567633ed4f0f6ed307387596986b250bcb55fe0043",
+          "tolerance_level": "C1"
+        },
+        {
+          "N_L_6Gyr": 8.73751398206321,
+          "chaos_index": 1,
+          "direction_id": "A",
+          "functional_layer_class_before_chaos": "FULL_FUNCTIONAL_STABILITY",
+          "lambda_6Gyr_Gyr_minus1": 1.4562523303438681,
+          "lyapunov_metadata_json": "09_VALIDATION/CLEANROOM_T5_CHAOS_DIAGNOSTIC_METADATA_v1_0_0/01_Irrgang13III_dop853_c_A_C2_lyapunov.json",
+          "lyapunov_metadata_sha256": "245927ce1f08f67c7e49e7fe431b4b50b63a8fe4facaabdb7bd870adedb24319",
+          "method": "dop853_c",
+          "potential": "Irrgang13III",
+          "raw_lyapunov_npz": "04_ORBITS/CLEANROOM_T5_CHAOS_DIAGNOSTIC_RAW_v1_0_0/01_Irrgang13III_dop853_c_A_C2_lyapunov.npz",
+          "raw_lyapunov_sha256": "82f7b50847bdd2c225f137462841842581250f9d0db1aba3269420242964cdef",
+          "tolerance_level": "C2"
+        },
+        {
+          "N_L_6Gyr": 8.025559117205919,
+          "chaos_index": 2,
+          "direction_id": "B",
+          "functional_layer_class_before_chaos": "FULL_FUNCTIONAL_STABILITY",
+          "lambda_6Gyr_Gyr_minus1": 1.3375931862009864,
+          "lyapunov_metadata_json": "09_VALIDATION/CLEANROOM_T5_CHAOS_DIAGNOSTIC_METADATA_v1_0_0/02_Irrgang13III_dop853_c_B_C1_lyapunov.json",
+          "lyapunov_metadata_sha256": "58b1bb2fccdf960596298a3a7dbee3dd9081b69a2cc060df5969f14a523e4a07",
+          "method": "dop853_c",
+          "potential": "Irrgang13III",
+          "raw_lyapunov_npz": "04_ORBITS/CLEANROOM_T5_CHAOS_DIAGNOSTIC_RAW_v1_0_0/02_Irrgang13III_dop853_c_B_C1_lyapunov.npz",
+          "raw_lyapunov_sha256": "9a3053279970a84f7df1aa2aed2cfdf33ddfd826f6d792070e89dc7c4bf7757c",
+          "tolerance_level": "C1"
+        },
+        {
+          "N_L_6Gyr": 8.025567233012348,
+          "chaos_index": 3,
+          "direction_id": "B",
+          "functional_layer_class_before_chaos": "FULL_FUNCTIONAL_STABILITY",
+          "lambda_6Gyr_Gyr_minus1": 1.3375945388353914,
+          "lyapunov_metadata_json": "09_VALIDATION/CLEANROOM_T5_CHAOS_DIAGNOSTIC_METADATA_v1_0_0/03_Irrgang13III_dop853_c_B_C2_lyapunov.json",
+          "lyapunov_metadata_sha256": "80bfe8b8243d6937bceeff678456ddd93f282f4d39cc8c38d82da721bb433ebb",
+          "method": "dop853_c",
+          "potential": "Irrgang13III",
+          "raw_lyapunov_npz": "04_ORBITS/CLEANROOM_T5_CHAOS_DIAGNOSTIC_RAW_v1_0_0/03_Irrgang13III_dop853_c_B_C2_lyapunov.npz",
+          "raw_lyapunov_sha256": "48a2dac01484d68403d79926764bd45de3f3092faabd2a1cce235f2905f1e82b",
+          "tolerance_level": "C2"
+        }
+      ],
+      "full_horizon_functional_PASS": true,
+      "functional_class_modified": false,
+      "functional_layer_class": "FULL_FUNCTIONAL_STABILITY",
+      "lambda_6Gyr_Gyr_minus1": {
+        "max": 1.4562523303438681,
+        "min": 1.3375931862009864,
+        "values": [
+          1.4562502202447127,
+          1.4562523303438681,
+          1.3375931862009864,
+          1.3375945388353914
+        ]
+      },
+      "physical_inference_authorized": false,
+      "scientific_label": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+      "tau_L_Gyr_interval_from_final_lambda": {
+        "max": 0.7476114638713032,
+        "min": 0.686694180097118
+      }
+    },
+    "McMillan17": {
+      "H_F_Gyr": 0.0,
+      "H_distribution_Gyr": 0.0,
+      "H_primary_Gyr": 0.5,
+      "N_L_6Gyr": {
+        "max": 7.507805015243669,
+        "min": 6.756003491263193,
+        "values": [
+          7.507805015243669,
+          7.507799141548368,
+          6.756003491263193,
+          6.7560253719808046
+        ]
+      },
+      "chaos_annotation": "ROBUST_MATERIAL_CHAOS",
+      "chaos_can_rescue_functional_failure": false,
+      "chaos_threshold": "ROBUST_MATERIAL_CHAOS iff min N_L_6Gyr >= 1",
+      "configuration_rows": [
+        {
+          "N_L_6Gyr": 7.507805015243669,
+          "chaos_index": 4,
+          "direction_id": "A",
+          "functional_layer_class_before_chaos": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+          "lambda_6Gyr_Gyr_minus1": 1.2513008358739448,
+          "lyapunov_metadata_json": "09_VALIDATION/CLEANROOM_T5_CHAOS_DIAGNOSTIC_METADATA_v1_0_0/04_McMillan17_dop853_c_A_C1_lyapunov.json",
+          "lyapunov_metadata_sha256": "ec0a3decbd1a930a5e5c3466f1b033b0ea0a5dbcb9a183b40f1b8336c5f10b1b",
+          "method": "dop853_c",
+          "potential": "McMillan17",
+          "raw_lyapunov_npz": "04_ORBITS/CLEANROOM_T5_CHAOS_DIAGNOSTIC_RAW_v1_0_0/04_McMillan17_dop853_c_A_C1_lyapunov.npz",
+          "raw_lyapunov_sha256": "df5c7b5db3d244e1e1ff5c4f239e98bfce4a155d5b95cef560e1817e2a60155e",
+          "tolerance_level": "C1"
+        },
+        {
+          "N_L_6Gyr": 7.507799141548368,
+          "chaos_index": 5,
+          "direction_id": "A",
+          "functional_layer_class_before_chaos": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+          "lambda_6Gyr_Gyr_minus1": 1.251299856924728,
+          "lyapunov_metadata_json": "09_VALIDATION/CLEANROOM_T5_CHAOS_DIAGNOSTIC_METADATA_v1_0_0/05_McMillan17_dop853_c_A_C2_lyapunov.json",
+          "lyapunov_metadata_sha256": "564a49db7ef3d5218b7888aeefff6b7b75271db08f8f1df957ceaae534a1877f",
+          "method": "dop853_c",
+          "potential": "McMillan17",
+          "raw_lyapunov_npz": "04_ORBITS/CLEANROOM_T5_CHAOS_DIAGNOSTIC_RAW_v1_0_0/05_McMillan17_dop853_c_A_C2_lyapunov.npz",
+          "raw_lyapunov_sha256": "b619dd1b35ca38024770bf0106488df486eba0ebc6303e6c092f2be4a1e240f1",
+          "tolerance_level": "C2"
+        },
+        {
+          "N_L_6Gyr": 6.756003491263193,
+          "chaos_index": 6,
+          "direction_id": "B",
+          "functional_layer_class_before_chaos": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+          "lambda_6Gyr_Gyr_minus1": 1.126000581877199,
+          "lyapunov_metadata_json": "09_VALIDATION/CLEANROOM_T5_CHAOS_DIAGNOSTIC_METADATA_v1_0_0/06_McMillan17_dop853_c_B_C1_lyapunov.json",
+          "lyapunov_metadata_sha256": "86bf6288633a75c265a8572805e101a4d932dc93adbd0dea60b22061d21e1691",
+          "method": "dop853_c",
+          "potential": "McMillan17",
+          "raw_lyapunov_npz": "04_ORBITS/CLEANROOM_T5_CHAOS_DIAGNOSTIC_RAW_v1_0_0/06_McMillan17_dop853_c_B_C1_lyapunov.npz",
+          "raw_lyapunov_sha256": "bda4c97f98adca5c40f181efcc75da9029eaa61a63940e05251af707b80fee71",
+          "tolerance_level": "C1"
+        },
+        {
+          "N_L_6Gyr": 6.7560253719808046,
+          "chaos_index": 7,
+          "direction_id": "B",
+          "functional_layer_class_before_chaos": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+          "lambda_6Gyr_Gyr_minus1": 1.1260042286634675,
+          "lyapunov_metadata_json": "09_VALIDATION/CLEANROOM_T5_CHAOS_DIAGNOSTIC_METADATA_v1_0_0/07_McMillan17_dop853_c_B_C2_lyapunov.json",
+          "lyapunov_metadata_sha256": "1df3c23afc474c6ab9ab8c49452c83185377e6c457a63934eb324db21a826012",
+          "method": "dop853_c",
+          "potential": "McMillan17",
+          "raw_lyapunov_npz": "04_ORBITS/CLEANROOM_T5_CHAOS_DIAGNOSTIC_RAW_v1_0_0/07_McMillan17_dop853_c_B_C2_lyapunov.npz",
+          "raw_lyapunov_sha256": "2488696079b0c532056ef837dc16b62f45969e9f756902ed5bdfafdb4809df35",
+          "tolerance_level": "C2"
+        }
+      ],
+      "full_horizon_functional_PASS": false,
+      "functional_class_modified": false,
+      "functional_layer_class": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+      "lambda_6Gyr_Gyr_minus1": {
+        "max": 1.2513008358739448,
+        "min": 1.126000581877199,
+        "values": [
+          1.2513008358739448,
+          1.251299856924728,
+          1.126000581877199,
+          1.1260042286634675
+        ]
+      },
+      "physical_inference_authorized": false,
+      "scientific_label": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+      "tau_L_Gyr_interval_from_final_lambda": {
+        "max": 0.8880990082019864,
+        "min": 0.7991683305330576
+      }
+    }
+  },
+  "stage": "CLEANROOM_T5_CHAOS_ANNOTATION",
+  "version": "v1.0.0"
+}

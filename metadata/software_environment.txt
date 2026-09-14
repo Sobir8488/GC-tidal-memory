@@ -1,0 +1,9 @@
+Python >= 3.10
+numpy
+pandas
+matplotlib
+
+The scientific integrations that produced the packaged final tables used the
+frozen project environment recorded in the source project. This archive is a
+post-processing/reproducibility package; it does not re-run orbit integrations,
+tidal-tensor evaluations, or Lyapunov calculations.

@@ -1,0 +1,529 @@
+{
+  "decision": {
+    "Irrgang13III_functional_class_by_cluster": {
+      "ESO 456 SC29": "FULL_FUNCTIONAL_STABILITY",
+      "IC 4499": "FULL_FUNCTIONAL_STABILITY",
+      "NGC 3201": "FULL_FUNCTIONAL_STABILITY",
+      "NGC 6304": "FULL_FUNCTIONAL_STABILITY",
+      "NGC 6402": "FULL_FUNCTIONAL_STABILITY",
+      "NGC 6441": "FULL_FUNCTIONAL_STABILITY",
+      "NGC 6522": "FULL_FUNCTIONAL_STABILITY",
+      "NGC 6544": "FULL_FUNCTIONAL_STABILITY",
+      "NGC 6569": "FULL_FUNCTIONAL_STABILITY",
+      "NGC 6624": "FULL_FUNCTIONAL_STABILITY",
+      "NGC 6652": "FULL_FUNCTIONAL_STABILITY",
+      "PAL 13": "FULL_FUNCTIONAL_STABILITY"
+    },
+    "McMillan17_functional_class_by_cluster": {
+      "ESO 456 SC29": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+      "IC 4499": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+      "NGC 3201": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+      "NGC 6304": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+      "NGC 6402": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+      "NGC 6441": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+      "NGC 6522": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+      "NGC 6544": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+      "NGC 6569": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+      "NGC 6624": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+      "NGC 6652": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+      "PAL 13": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+    },
+    "classification": "DIAGNOSTIC_FUNCTIONAL_GROUPING_SEMANTICS_EXTRACTED",
+    "cluster_potential_functional_invariance_count": 24,
+    "cluster_potential_group_count": 24,
+    "cluster_wide_functional_invariance_count": 0,
+    "clusters_with_potential_dependent_functional_class_count": 12,
+    "endpoint_policy_direct_semantics_present": true,
+    "endpoint_policy_does_not_demand_cross_potential_functional_invariance": true,
+    "endpoint_synthesis_computation_in_this_stage": 0,
+    "endpoint_synthesis_execution_authorized": false,
+    "next_stage": "CLEANROOM_T6_V1_0_6_ENDPOINT_PREFLIGHT_FUNCTIONAL_GROUPING_SEMANTIC_ADJUDICATION",
+    "science_claim_output_in_this_stage": 0,
+    "status": "PASS_CLEANROOM_T6_V1_0_6_ENDPOINT_PREFLIGHT_FUNCTIONAL_GROUPING_FALSE_GATE_FORENSICS_V1_0_0"
+  },
+  "decision_gates": {
+    "Irrgang13III_chaos_all_12_robust": true,
+    "Irrgang13III_functional_resolved_12": true,
+    "McMillan17_functional_resolved_12": true,
+    "Orbit_instances_zero": true,
+    "Orbit_lyapunov_calls_zero": true,
+    "all_24_cluster_potential_groups_constant": true,
+    "all_24_groups_have_four_subcells": true,
+    "all_96_functional_records_resolved": true,
+    "cluster_invariance_failure_explained_by_potential_dependence": true,
+    "endpoint_claim_output_zero": true,
+    "endpoint_policy_direct_semantics_present": true,
+    "endpoint_policy_does_not_demand_cross_potential_invariance": true,
+    "endpoint_synthesis_computation_zero": true,
+    "exists::02_METADATA/CLEANROOM_T6_CONFIRMATORY_ENDPOINT_POLICY_v1_0_0.json": true,
+    "exists::02_METADATA/CLEANROOM_T6_V1_0_6_96ROW_CHAOS_CLASSIFICATION_RESULTS_CONTRACT_v1_0_0.json": true,
+    "exists::02_METADATA/CLEANROOM_T6_V1_0_6_ENDPOINT_PREFLIGHT_FUNCTIONAL_GROUPING_FALSE_GATE_FORENSICS_AUTHORITY_v1_0_0.json": true,
+    "exists::09_VALIDATION/t6_v1_0_6_chaos_classification_independent_validation_and_endpoint_synthesis_preflight_v1_0_0.json": true,
+    "exists::09_VALIDATION/t6_v1_0_6_chaos_classification_independent_validation_and_endpoint_synthesis_preflight_v1_0_0_trace.json": true,
+    "exists::scripts/500o_cleanroom_t6_cluster_specific_lyapunov_96row_worker_generation_v1_0_6.py": true,
+    "held_classification_independent_exact": true,
+    "held_cluster_invariance_false": true,
+    "held_endpoint_policy_semantics_exact": true,
+    "held_functional_presence_96": true,
+    "new_orbit_execution_zero": true,
+    "sha_exact::02_METADATA/CLEANROOM_T6_CONFIRMATORY_ENDPOINT_POLICY_v1_0_0.json": true,
+    "sha_exact::02_METADATA/CLEANROOM_T6_V1_0_6_96ROW_CHAOS_CLASSIFICATION_RESULTS_CONTRACT_v1_0_0.json": true,
+    "sha_exact::02_METADATA/CLEANROOM_T6_V1_0_6_ENDPOINT_PREFLIGHT_FUNCTIONAL_GROUPING_FALSE_GATE_FORENSICS_AUTHORITY_v1_0_0.json": true,
+    "sha_exact::09_VALIDATION/t6_v1_0_6_chaos_classification_independent_validation_and_endpoint_synthesis_preflight_v1_0_0.json": true,
+    "sha_exact::09_VALIDATION/t6_v1_0_6_chaos_classification_independent_validation_and_endpoint_synthesis_preflight_v1_0_0_trace.json": true,
+    "sha_exact::scripts/500o_cleanroom_t6_cluster_specific_lyapunov_96row_worker_generation_v1_0_6.py": true,
+    "source_mutation_zero": true,
+    "worker_functional_source_hits_present": true
+  },
+  "details": {
+    "clusters_with_potential_dependent_functional_class": {
+      "ESO 456 SC29": {
+        "Irrgang13III": "FULL_FUNCTIONAL_STABILITY",
+        "McMillan17": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "IC 4499": {
+        "Irrgang13III": "FULL_FUNCTIONAL_STABILITY",
+        "McMillan17": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 3201": {
+        "Irrgang13III": "FULL_FUNCTIONAL_STABILITY",
+        "McMillan17": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6304": {
+        "Irrgang13III": "FULL_FUNCTIONAL_STABILITY",
+        "McMillan17": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6402": {
+        "Irrgang13III": "FULL_FUNCTIONAL_STABILITY",
+        "McMillan17": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6441": {
+        "Irrgang13III": "FULL_FUNCTIONAL_STABILITY",
+        "McMillan17": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6522": {
+        "Irrgang13III": "FULL_FUNCTIONAL_STABILITY",
+        "McMillan17": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6544": {
+        "Irrgang13III": "FULL_FUNCTIONAL_STABILITY",
+        "McMillan17": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6569": {
+        "Irrgang13III": "FULL_FUNCTIONAL_STABILITY",
+        "McMillan17": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6624": {
+        "Irrgang13III": "FULL_FUNCTIONAL_STABILITY",
+        "McMillan17": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6652": {
+        "Irrgang13III": "FULL_FUNCTIONAL_STABILITY",
+        "McMillan17": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "PAL 13": {
+        "Irrgang13III": "FULL_FUNCTIONAL_STABILITY",
+        "McMillan17": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      }
+    },
+    "endpoint_policy_semantic_hits": [
+      {
+        "path": "$.broader_occurrence_secondary",
+        "value": "Count confirmatory cluster-potential endpoints with FULL_FUNCTIONAL_STABILITY + ROBUST_MATERIAL_CHAOS; descriptive until all endpoints close."
+      },
+      {
+        "path": "$.chaos_policy",
+        "value": {
+          "N_L_6Gyr": "lambda_final * 6",
+          "ROBUST_MATERIAL_CHAOS": "min(four N_L values per cluster/potential) >= 1",
+          "WEAK_OR_NONMATERIAL_CHAOS": "max(four N_L values per cluster/potential) < 1",
+          "chaos_cannot_rescue_functional_failure": true,
+          "directions": {
+            "A": [
+              0.4082482904638631,
+              0.4082482904638631,
+              0.4082482904638631,
+              0.4082482904638631,
+              0.4082482904638631,
+              0.4082482904638631
+            ],
+            "B": [
+              0.7071067811865475,
+              -0.7071067811865475,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "lambda_final_units": "Gyr^-1",
+          "otherwise": "CHAOS_CLASS_INCONCLUSIVE",
+          "time_reverse_state": "[R,-vR,-vT,z,-vz,phi]",
+          "tolerances": {
+            "C1": {
+              "atol": 1e-12,
+              "rtol": 1e-10
+            },
+            "C2": {
+              "atol": 1e-13,
+              "rtol": 1e-11
+            }
+          }
+        }
+      },
+      {
+        "path": "$.chaos_policy.ROBUST_MATERIAL_CHAOS",
+        "value": "min(four N_L values per cluster/potential) >= 1"
+      },
+      {
+        "path": "$.chaos_policy.WEAK_OR_NONMATERIAL_CHAOS",
+        "value": "max(four N_L values per cluster/potential) < 1"
+      },
+      {
+        "path": "$.combined_labels",
+        "value": {
+          "FULL_FUNCTIONAL_STABILITY + ROBUST_MATERIAL_CHAOS": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE",
+          "FULL_HORIZON_FUNCTIONAL_CONVERGENCE_WITH_TIMING_NONROBUSTNESS + ROBUST_MATERIAL_CHAOS": "CHAOTIC_FULL_HORIZON_FUNCTIONAL_CONVERGENCE_WITH_TIMING_NONROBUSTNESS",
+          "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+        }
+      },
+      {
+        "path": "$.combined_labels.FULL_FUNCTIONAL_STABILITY + ROBUST_MATERIAL_CHAOS",
+        "value": "CHAOTIC_BUT_TIDAL_MEMORY_FUNCTIONALLY_STABLE"
+      },
+      {
+        "path": "$.combined_labels.FULL_HORIZON_FUNCTIONAL_CONVERGENCE_WITH_TIMING_NONROBUSTNESS + ROBUST_MATERIAL_CHAOS",
+        "value": "CHAOTIC_FULL_HORIZON_FUNCTIONAL_CONVERGENCE_WITH_TIMING_NONROBUSTNESS"
+      },
+      {
+        "path": "$.confirmatory_replication_primary",
+        "value": "At least one confirmatory cluster in Irrgang13III independently reaches FULL_FUNCTIONAL_STABILITY + ROBUST_MATERIAL_CHAOS under the frozen policy."
+      },
+      {
+        "path": "$.functional_convergence_policy",
+        "value": {
+          "E": "max(S_T3,S_T4,and four fine-level deltas)",
+          "H_F": "min(H_primary,H_distribution)",
+          "H_distribution": "same prefix rule for q50,q90,q99,peak",
+          "H_primary": "longest consecutive prefix from 0.25 Gyr where I_tide and Q_tide scalar PASS",
+          "S_T3": "finest L3 adaptive method spread",
+          "S_T4": "finest D3 symplectic method spread",
+          "T3_within_each_method": "|F_L3-F_L2| <= |F_L2-F_L1|",
+          "T4_within_each_method": "|F_D3-F_D2| <= |F_D2-F_D1|",
+          "X": "abs(center_T3-center_T4)",
+          "classes": {
+            "full_and_HF_6": "FULL_FUNCTIONAL_STABILITY",
+            "full_and_HF_lt6": "FULL_HORIZON_FUNCTIONAL_CONVERGENCE_WITH_TIMING_NONROBUSTNESS",
+            "full_false": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+          },
+          "cross_family_PASS": "X <= E",
+          "family_center": "median of the two finest method values within each family",
+          "full_horizon_functional_PASS": "primary and distribution scalar PASS at 6 Gyr",
+          "observed_value_tuning": false,
+          "scalar_PASS": "all four within-method gates AND cross_family_PASS",
+          "threshold_relaxation": false
+        }
+      },
+      {
+        "path": "$.functional_convergence_policy.classes",
+        "value": {
+          "full_and_HF_6": "FULL_FUNCTIONAL_STABILITY",
+          "full_and_HF_lt6": "FULL_HORIZON_FUNCTIONAL_CONVERGENCE_WITH_TIMING_NONROBUSTNESS",
+          "full_false": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+        }
+      },
+      {
+        "path": "$.functional_convergence_policy.classes.full_and_HF_6",
+        "value": "FULL_FUNCTIONAL_STABILITY"
+      },
+      {
+        "path": "$.per_cluster_endpoint_requirement",
+        "value": "Every frozen cluster x potential must end with a functional class and chaos class, or a declared execution failure; no post-hoc dropping."
+      }
+    ],
+    "functional_matrix": {
+      "ESO 456 SC29 | Irrgang13III": {
+        "A/C1": "FULL_FUNCTIONAL_STABILITY",
+        "A/C2": "FULL_FUNCTIONAL_STABILITY",
+        "B/C1": "FULL_FUNCTIONAL_STABILITY",
+        "B/C2": "FULL_FUNCTIONAL_STABILITY"
+      },
+      "ESO 456 SC29 | McMillan17": {
+        "A/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "A/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "IC 4499 | Irrgang13III": {
+        "A/C1": "FULL_FUNCTIONAL_STABILITY",
+        "A/C2": "FULL_FUNCTIONAL_STABILITY",
+        "B/C1": "FULL_FUNCTIONAL_STABILITY",
+        "B/C2": "FULL_FUNCTIONAL_STABILITY"
+      },
+      "IC 4499 | McMillan17": {
+        "A/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "A/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 3201 | Irrgang13III": {
+        "A/C1": "FULL_FUNCTIONAL_STABILITY",
+        "A/C2": "FULL_FUNCTIONAL_STABILITY",
+        "B/C1": "FULL_FUNCTIONAL_STABILITY",
+        "B/C2": "FULL_FUNCTIONAL_STABILITY"
+      },
+      "NGC 3201 | McMillan17": {
+        "A/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "A/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6304 | Irrgang13III": {
+        "A/C1": "FULL_FUNCTIONAL_STABILITY",
+        "A/C2": "FULL_FUNCTIONAL_STABILITY",
+        "B/C1": "FULL_FUNCTIONAL_STABILITY",
+        "B/C2": "FULL_FUNCTIONAL_STABILITY"
+      },
+      "NGC 6304 | McMillan17": {
+        "A/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "A/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6402 | Irrgang13III": {
+        "A/C1": "FULL_FUNCTIONAL_STABILITY",
+        "A/C2": "FULL_FUNCTIONAL_STABILITY",
+        "B/C1": "FULL_FUNCTIONAL_STABILITY",
+        "B/C2": "FULL_FUNCTIONAL_STABILITY"
+      },
+      "NGC 6402 | McMillan17": {
+        "A/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "A/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6441 | Irrgang13III": {
+        "A/C1": "FULL_FUNCTIONAL_STABILITY",
+        "A/C2": "FULL_FUNCTIONAL_STABILITY",
+        "B/C1": "FULL_FUNCTIONAL_STABILITY",
+        "B/C2": "FULL_FUNCTIONAL_STABILITY"
+      },
+      "NGC 6441 | McMillan17": {
+        "A/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "A/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6522 | Irrgang13III": {
+        "A/C1": "FULL_FUNCTIONAL_STABILITY",
+        "A/C2": "FULL_FUNCTIONAL_STABILITY",
+        "B/C1": "FULL_FUNCTIONAL_STABILITY",
+        "B/C2": "FULL_FUNCTIONAL_STABILITY"
+      },
+      "NGC 6522 | McMillan17": {
+        "A/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "A/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6544 | Irrgang13III": {
+        "A/C1": "FULL_FUNCTIONAL_STABILITY",
+        "A/C2": "FULL_FUNCTIONAL_STABILITY",
+        "B/C1": "FULL_FUNCTIONAL_STABILITY",
+        "B/C2": "FULL_FUNCTIONAL_STABILITY"
+      },
+      "NGC 6544 | McMillan17": {
+        "A/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "A/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6569 | Irrgang13III": {
+        "A/C1": "FULL_FUNCTIONAL_STABILITY",
+        "A/C2": "FULL_FUNCTIONAL_STABILITY",
+        "B/C1": "FULL_FUNCTIONAL_STABILITY",
+        "B/C2": "FULL_FUNCTIONAL_STABILITY"
+      },
+      "NGC 6569 | McMillan17": {
+        "A/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "A/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6624 | Irrgang13III": {
+        "A/C1": "FULL_FUNCTIONAL_STABILITY",
+        "A/C2": "FULL_FUNCTIONAL_STABILITY",
+        "B/C1": "FULL_FUNCTIONAL_STABILITY",
+        "B/C2": "FULL_FUNCTIONAL_STABILITY"
+      },
+      "NGC 6624 | McMillan17": {
+        "A/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "A/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "NGC 6652 | Irrgang13III": {
+        "A/C1": "FULL_FUNCTIONAL_STABILITY",
+        "A/C2": "FULL_FUNCTIONAL_STABILITY",
+        "B/C1": "FULL_FUNCTIONAL_STABILITY",
+        "B/C2": "FULL_FUNCTIONAL_STABILITY"
+      },
+      "NGC 6652 | McMillan17": {
+        "A/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "A/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      },
+      "PAL 13 | Irrgang13III": {
+        "A/C1": "FULL_FUNCTIONAL_STABILITY",
+        "A/C2": "FULL_FUNCTIONAL_STABILITY",
+        "B/C1": "FULL_FUNCTIONAL_STABILITY",
+        "B/C2": "FULL_FUNCTIONAL_STABILITY"
+      },
+      "PAL 13 | McMillan17": {
+        "A/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "A/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C1": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED",
+        "B/C2": "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      }
+    },
+    "functional_unique_by_cluster": {
+      "ESO 456 SC29": [
+        "FULL_FUNCTIONAL_STABILITY",
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "IC 4499": [
+        "FULL_FUNCTIONAL_STABILITY",
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 3201": [
+        "FULL_FUNCTIONAL_STABILITY",
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6304": [
+        "FULL_FUNCTIONAL_STABILITY",
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6402": [
+        "FULL_FUNCTIONAL_STABILITY",
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6441": [
+        "FULL_FUNCTIONAL_STABILITY",
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6522": [
+        "FULL_FUNCTIONAL_STABILITY",
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6544": [
+        "FULL_FUNCTIONAL_STABILITY",
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6569": [
+        "FULL_FUNCTIONAL_STABILITY",
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6624": [
+        "FULL_FUNCTIONAL_STABILITY",
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6652": [
+        "FULL_FUNCTIONAL_STABILITY",
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "PAL 13": [
+        "FULL_FUNCTIONAL_STABILITY",
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ]
+    },
+    "functional_unique_by_cluster_potential": {
+      "ESO 456 SC29 | Irrgang13III": [
+        "FULL_FUNCTIONAL_STABILITY"
+      ],
+      "ESO 456 SC29 | McMillan17": [
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "IC 4499 | Irrgang13III": [
+        "FULL_FUNCTIONAL_STABILITY"
+      ],
+      "IC 4499 | McMillan17": [
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 3201 | Irrgang13III": [
+        "FULL_FUNCTIONAL_STABILITY"
+      ],
+      "NGC 3201 | McMillan17": [
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6304 | Irrgang13III": [
+        "FULL_FUNCTIONAL_STABILITY"
+      ],
+      "NGC 6304 | McMillan17": [
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6402 | Irrgang13III": [
+        "FULL_FUNCTIONAL_STABILITY"
+      ],
+      "NGC 6402 | McMillan17": [
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6441 | Irrgang13III": [
+        "FULL_FUNCTIONAL_STABILITY"
+      ],
+      "NGC 6441 | McMillan17": [
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6522 | Irrgang13III": [
+        "FULL_FUNCTIONAL_STABILITY"
+      ],
+      "NGC 6522 | McMillan17": [
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6544 | Irrgang13III": [
+        "FULL_FUNCTIONAL_STABILITY"
+      ],
+      "NGC 6544 | McMillan17": [
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6569 | Irrgang13III": [
+        "FULL_FUNCTIONAL_STABILITY"
+      ],
+      "NGC 6569 | McMillan17": [
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6624 | Irrgang13III": [
+        "FULL_FUNCTIONAL_STABILITY"
+      ],
+      "NGC 6624 | McMillan17": [
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "NGC 6652 | Irrgang13III": [
+        "FULL_FUNCTIONAL_STABILITY"
+      ],
+      "NGC 6652 | McMillan17": [
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ],
+      "PAL 13 | Irrgang13III": [
+        "FULL_FUNCTIONAL_STABILITY"
+      ],
+      "PAL 13 | McMillan17": [
+        "TIDAL_FUNCTIONAL_CONVERGENCE_UNRESOLVED"
+      ]
+    },
+    "worker_functional_class_source_hits": [
+      {
+        "line": 206,
+        "text": "\"functional_layer_class_before_chaos\":"
+      },
+      {
+        "line": 434,
+        "text": "\"functional_layer_class_before_chaos\":"
+      },
+      {
+        "line": 435,
+        "text": "meta[\"functional_layer_class_before_chaos\"],"
+      }
+    ]
+  }
+}
