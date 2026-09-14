@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1369339158.svg)](https://doi.org/10.5281/zenodo.22742492)
+
 # GC tidal-memory reproducibility package v1.0.0
 
 This archive contains the curated data products, selected source authorities,
